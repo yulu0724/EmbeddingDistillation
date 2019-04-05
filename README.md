@@ -9,7 +9,7 @@ Metric learning networks are used to compute image embeddings, which are widely 
 ## Authors
 Lu Yu, Vacit Oguz Yazici, Xialei Liu, Joost van de Weijer, Yongmei Cheng, Arnau Ramisa 
 
-## Absolute Teacher and Relative Teacher
+## Framework
 ![Absolute Teacher and Relative Teacher](./abs_rel.png)
 
 ## Datasets
@@ -17,7 +17,7 @@ We evaluate our system in several datasets, including ```CUB-200-2011, Cars-196,
 
 The first half of classes are used for training and the remaining half for testing. For instance, on CUB-200-2011 dataset, 100 classes (5,864 images) are for training and the remaining 100 classes (5,924 images) are for testing. 
 
-Please download [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) , [Cars-196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), [Stanford Online Products](http://cvgl.stanford.edu/projects/lifted_struct/) datasets first, the sprit_data function in the DataSet folder is then used to sprit the train and test set.
+Please download [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) , [Cars-196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), [Stanford Online Products](http://cvgl.stanford.edu/projects/lifted_struct/) datasets first, the ```sprit_data``` function is then used to sprit the train and test set.
 
 ## Requirments
 All training and test are done in [Pytorch](https://pytorch.org/) framework.
@@ -26,5 +26,9 @@ Pytorch vesion: 0.3.0.post4
 
 Python version: 2.7
 
-## Pre-trained Teacher Model
-The pre-trained [Teacher models](https://drive.google.com/drive/folders/19gOzU01XzyzX0MoTxrOXVU-U4Zj0o22r?usp=sharing) (ResNet-101) on cub, cars and products are available to download.
+## Pre-trained Teacher Model (ResNet-101)
+The pre-trained [Teacher models](https://drive.google.com/drive/folders/19gOzU01XzyzX0MoTxrOXVU-U4Zj0o22r?usp=sharing) on cub, cars and products are available to download.
+
+## Relative Teacher and Absolute Teacher
+The code of relative teacher and absolute teacher is available in the folder.
+

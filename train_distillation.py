@@ -220,11 +220,8 @@ if __name__ == '__main__':
     parser.add_argument('--momentum', type=float, default=0.9)
     parser.add_argument('--weight-decay', type=float, default=2e-4)
 
-    # distillation
-    parser.add_argument("-lamdaA",type=float, default=0.0, help="The trade-off between contrastive and other losses") 
-    parser.add_argument("-lamdaB",type=float, default=0.0, help="The trade-off between contrastive and other losses") 
+    # distillation 
     parser.add_argument("-lamda",type=float, default=0.0, help="The trade-off between contrastive and other losses") 
-
     parser.add_argument("-Ttype",type=str, default='D', help='relative, absolute')
     parser.add_argument('-which_epoch', type=int, default=0, help='which epoch to load? set to latest to use latest cached model')
     parser.add_argument('-continue_train', action='store_true', help='continue training: load the certain model')

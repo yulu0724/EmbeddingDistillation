@@ -12,8 +12,6 @@ import numpy as np
 from utils import to_numpy
 from torch.nn import functional as F
 
-
-
 cudnn.benchmark = True
 parser = argparse.ArgumentParser(description='PyTorch Testing')
 
@@ -43,16 +41,6 @@ else:
         data.train, batch_size=8, shuffle=False, drop_last=False)
 
 features, labels = extract_features(model, data_loader, print_freq=32, metric=None)
-num_class = len(set(labels))
-n_classes = 10
-if n_classes > 0:
-    features_new = []
-    labels_new = []
-    classes = [0,6,7,8,9,10,11,12,13,14]
-    for feature, label in zip(features, labels):
-	if label in classes:
-	     features_new.append(feature)
-	     labels_new.append(label)
 
 sim_mat = - pairwise_distance(features)
 

@@ -10,4 +10,4 @@ Metric learning networks are used to compute image embeddings, which are widely 
 Lu Yu, Vacit Oguz Yazici, Xialei Liu, Joost van de Weijer, Yongmei Cheng, Arnau Ramisa 
 
 ## Absolute Teacher and Relative Teacher
-![Absolute Teacher and Relative Teacher](./abs_rel.pdf)
+![Absolute Teacher and Relative Teacher](./abs_rel.png)

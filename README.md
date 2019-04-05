@@ -30,5 +30,5 @@ Python version: 2.7
 The pre-trained [Teacher models](https://drive.google.com/drive/folders/19gOzU01XzyzX0MoTxrOXVU-U4Zj0o22r?usp=sharing) on cub, cars and products are available to download.
 
 ## Relative Teacher and Absolute Teacher
-The code of relative teacher and absolute teacher is available in the folder.
+The code of ```relative teacher``` and ```absolute teacher``` is available in the folder.
 

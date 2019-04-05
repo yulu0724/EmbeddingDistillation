@@ -26,6 +26,10 @@ Pytorch vesion: 0.3.0.post4
 
 Python version: 2.7
 
+## Pre-trained Model from Imagenet
+The pre-trained .[models](https://drive.google.com/drive/folders/19gOzU01XzyzX0MoTxrOXVU-U4Zj0o22r?usp=sharing) from Imagenet are avaliable to download.
+
+
 ## Pre-trained Teacher Model (ResNet-101)
 The pre-trained [Teacher models](https://drive.google.com/drive/folders/19gOzU01XzyzX0MoTxrOXVU-U4Zj0o22r?usp=sharing) on cub, cars and products are available to download.
 

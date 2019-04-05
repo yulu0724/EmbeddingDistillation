@@ -20,3 +20,10 @@ The first half of classes are used for training and the remaining half for testi
 Please download [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) , [Cars-196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), [Stanford Online Products](http://cvgl.stanford.edu/projects/lifted_struct/) datasets first, the sprit_data function in the DataSet folder is then used to sprit the train and test set.
 
 ## Requirments
+All training and test are done in [Pytorch](https://pytorch.org/) framework.
+
+Pytorch vesion: 0.3.0.post4
+Python version: 2.7
+
+## Pre-trained Teacher Model
+The pre-trained [Teacher models](https://drive.google.com/drive/folders/19gOzU01XzyzX0MoTxrOXVU-U4Zj0o22r?usp=sharing) (ResNet-101) on cub, cars and products are available to download.

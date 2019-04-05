@@ -1,5 +1,6 @@
 # EmbeddingDistillation
-Learning Metrics from Teachers: Compact Networks for Image Embedding
+Learning Metrics from Teachers: Compact Networks for Image Embedding.
+
 The paper will be published at the conference of 2019 Computer Vision and Pattern Recognition (CVPR19). 
 
 ## Abstract

@@ -35,4 +35,7 @@ The pre-trained [Teacher models](https://drive.google.com/drive/folders/19gOzU01
 
 ## Relative Teacher and Absolute Teacher
 The code of ```relative teacher``` and ```absolute teacher``` is available in the folder.
+```
+./run_main.sh
+```
 

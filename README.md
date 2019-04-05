@@ -23,6 +23,7 @@ Please download [CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2
 All training and test are done in [Pytorch](https://pytorch.org/) framework.
 
 Pytorch vesion: 0.3.0.post4
+
 Python version: 2.7
 
 ## Pre-trained Teacher Model

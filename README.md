@@ -11,3 +11,10 @@ Lu Yu, Vacit Oguz Yazici, Xialei Liu, Joost van de Weijer, Yongmei Cheng, Arnau 
 
 ## Absolute Teacher and Relative Teacher
 ![Absolute Teacher and Relative Teacher](./abs_rel.png)
+
+## Datasets
+We evaluate our system in several datasets, including ```CUB-200-2011, Cars-196, Stanford Online Products```.
+
+By excluding some classes from the training of the embedding, we can evaluate at testing time how good the embedding generalizes to unseen classes. Therefore, the first half of classes are used for training and the remaining half for testing. For instance, on CUB-200-2011 dataset, 100 classes (5,864 images) are for training and the remaining 100 classes (5,924 images) are for testing. (Please download ![CUB-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) , ![Cars-196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), ![Stanford Online Products](http://cvgl.stanford.edu/projects/lifted_struct/) datasets first,the sprit_data function in the DataSet folder is then used to sprit the train and test set.)
+
+## Requirments

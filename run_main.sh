@@ -4,7 +4,7 @@ TNET=resnet101
 SNET=resnet18
 GPU=1
 LOSS=triplet
-LR=1e-05 # 1e-05 for cub and car; 1e-06 for products
+LR=1e-05 
 for LAMDA in 0.10  # cub: (abs:1.00, rel:0.30); car: (abs:1.50, rel: 0.10); product: (abs:2.00, rel: 1.00)
 do
 
